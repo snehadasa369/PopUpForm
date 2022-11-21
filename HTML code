@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <button class="btn btn-primary" id="open-button" onclick="openForm()">
+      post 🥰🥰
+    </button>
+
+    <div class="form-popup" id="MyForm">
+      <div class="text">
+        <div class="start">
+          <div class="intro">
+            <h3>Create a Post</h3>
+          </div>
+          <div class="cancle">
+            <img src="./cancle.png" alt="cancle" class="img1" />
+          </div>
+        </div>
+        <hr style="color: black" />
+        <div class="second">
+          <div class="ddl" id="img2">
+            <img src="./tech.jpg" alt="" />
+          </div>
+          <div class="ddl" id="drop">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              ManyaTechnology
+            </a>
+          </div>
+          <div class="ddl" id="drop1">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              AnyOne
+            </a>
+          </div>
+          <br />
+          <br />
+          <br />
+
+          <div class="third">
+            <p><b> What u want to Talk about...?</b></p>
+          </div>
+
+          <div class="emogi">🥰</div>
+
+          <div class="fourth">
+            <div class="image" id="s1">
+              <a href="https://www.amazon.in/gp/cart/view.html?ref_=nav_cart"
+                ><img src="./bucket.jpeg" alt=""
+              /></a>
+            </div>
+            <div class="image" id="s2">
+              <a
+                href="https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics"
+              >
+                <img src="./graph.jpeg" alt=""
+              /></a>
+            </div>
+            <div class="image" id="s3">
+              <a
+                href="https://www.amazon.in/Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books"
+                ><img src="./massage.png" alt=""
+              /></a>
+            </div>
+            <div class="image" id="s4">
+              <a
+                href="https://www.amazon.in/minitv?ref_=nav_avod_desktop_topnav"
+                ><img src="./mov.jpeg" alt=""
+              /></a>
+            </div>
+            <div class="image" id="s5">
+              <a
+                href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help"
+              >
+                <p><b>Post</b></p></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
