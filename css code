@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+#open-button {
+  padding: 16px 20px;
+  font-size: 30px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 200px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  height: 600px;
+  max-width: 600px;
+  padding: 10px;
+  background-color: white;
+}
+
+#MyForm {
+  background-color: aliceblue;
+  width: 600px;
+  height: 600px;
+  right: 600px;
+  bottom: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.text {
+  bottom: 550px;
+}
+
+.start {
+  font-size: 0; /*remove white space*/
+  text-align: justify;
+}
+.start:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+.intro,
+.cancle {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.img1 {
+  width: 60px;
+  padding: 10px;
+}
+.intro {
+  padding-left: 15px;
+  font-family: cursive;
+}
+.ddl {
+  text-decoration: none;
+  width: 30%;
+  float: left;
+}
+img {
+  text-align: center;
+  width: 70px;
+}
+#drop,
+#drop1 {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+.third {
+  margin: 20px;
+  font-style: italic;
+  color: black;
+}
+.emogi {
+  height: 280px;
+  font-size: 30px;
+  position: absolute;
+  top: 400px;
+  left: 50px;
+}
+.fourth {
+  border: 2ox solid black;
+  background-color: rgb(40, 190, 210);
+}
+.fourth p {
+  text-align: center;
+  font-size: 20px;
+}
+.image {
+  top: 550px;
+  width: 70px;
+  padding: 10px;
+  float: left;
+}
+#s1 {
+  position: absolute;
+  top: 500px;
+  left: 10px;
+}
+#s2 {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+}
+#s3 {
+  position: absolute;
+  top: 500px;
+  left: 190px;
+}
+#s4 {
+  position: absolute;
+  top: 500px;
+  left: 280px;
+}
+#s5 {
+  position: absolute;
+  top: 520px;
+  left: 510px;
+}
